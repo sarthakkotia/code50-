@@ -1,0 +1,6 @@
+three loops will occur
+
+1st loop for originating spaces  like marioless
+2nd loop for the 1st set of hash like marioless
+    between 2nd and 3rd loop a constant gap of 1 space
+3rd loop for 2nd set of hash like marioless however inverted which was the originating idea of marioless

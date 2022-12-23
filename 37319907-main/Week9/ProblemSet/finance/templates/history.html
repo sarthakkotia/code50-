@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <div class="section">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Current Price</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in history %}
+                <tr>
+                    <td>{{row["Symbol"]}}</td>
+                    <td>{{row["Description"]}}</td>
+                    <td>{{row["Quantity"]}}</td>
+                    <td>{{row["Price"]}}</td>
+                    <td>{{row["Time"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

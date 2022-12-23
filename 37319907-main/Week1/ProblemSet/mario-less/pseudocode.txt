@@ -1,0 +1,10 @@
+todo
+
+ex.
+1       2...
+#       #
+       ##
+
+if wrote n
+number of rows of # = n
+print# incresing with each row

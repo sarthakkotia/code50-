@@ -1,0 +1,11 @@
+how to get digits?
+
+to get last digit
+if we take any big number and take remainder(%) when we divide it by 10
+what we get is the right most digit
+
+todo
+prompt for input
+checksum
+check card length and starting digits
+AMEX MASTERCARD VISA INVALID

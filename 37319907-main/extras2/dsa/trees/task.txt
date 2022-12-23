@@ -1,0 +1,16 @@
+code to print parent
+code to print Childern
+code to print leaf nodes
+code to print leaf degree
+code to print leaf degree
+
+
+diameter of a tree?
+insertion using level order using queue?
+delete a node in binary tree... leave it
+https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversal-set-2/
+code to find mean of the nodes of tree
+geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/
+https://www.geeksforgeeks.org/replace-node-binary-tree-sum-inorder-predecessor-successor/
+https://www.geeksforgeeks.org/inorder-succesor-node-binary-tree/
+https://www.geeksforgeeks.org/find-n-th-node-inorder-traversal/

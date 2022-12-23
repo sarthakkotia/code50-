@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="card">
+<div class="container px-4 overflow-hidden text-center">
+    <div class="row gx-5">
+      <div class="col">
+       <div class="p-3">Balance :{{cash["cash"]|usd}}</div>
+      </div>
+      <div class="col">
+        <div class="p-3">
+            Grand Total:{{total|usd}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+    <div class="section">
+        <h2>Your Portfolio</h2>
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Current Price</th>
+                    <th>Total Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in portfolio %}
+                <tr>
+                    <td>{{row["symbol"]}}</td>
+                    <td>{{row["description"]}}</td>
+                    <td>{{row["quantity"]}}</td>
+                    <td>{{row["price"] |usd}}</td>
+                    <td>{{(row["price"] * row["quantity"]) |usd}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

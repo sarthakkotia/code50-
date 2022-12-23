@@ -1,0 +1,13 @@
+sort1 uses: Bubble
+
+How do you know?: takes no time in sorting the sorted 50000
+
+sort2 uses:  Merge Sort
+
+How do you know?: Very less time in all test cases
+
+sort3 uses: Selection Sort
+
+How do you know?: Takes that same amount of time at the sorted values
+as Big 0 and sigma notation of both is same so same amount of time even if the values are sorted
+sort 2 is fastest among them
